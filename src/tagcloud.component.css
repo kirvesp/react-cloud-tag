@@ -1,0 +1,26 @@
+.tag-cloud {
+    display: inline-flex;
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 14px;
+    font-family: "Ubuntu Mono";
+    text-align: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tag-cloud-input {
+    display: flex;
+    min-width: 100px;
+    font-size: 19px;
+    max-width: 100%;
+    word-break: break-all;
+}
+
+.tag-cloud-input:focus {
+    border: none;
+    outline: none;
+}
