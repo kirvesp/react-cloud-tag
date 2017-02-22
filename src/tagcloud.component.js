@@ -45,7 +45,7 @@ class TagCloud extends Component {
         for (let i = 0; i < tagsList.length; i++) {
             let tag = tagsList[i];
 
-            if (!this.isValidForPush(tags, tag)) {
+            if (!TagCloud.isValidForPush(tags, tag)) {
                 continue;
             }
 
